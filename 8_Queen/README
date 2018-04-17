@@ -1,1 +1,11 @@
   AI Project -- 8_Queen Problem
+  
+  The output File is '8_Quene'
+  
+  The Algorithm Is ===>>
+    Find Any Possiple Way to put 8 queens in 8 board
+  
+ 1) it goes from the first row 
+ 2) Make the col random in first row 
+ 3) Do backtrack to find solution 
+ 4) if found solution print the result in file else print can't find
