@@ -4,6 +4,15 @@ Input is a file called 'Puzzle.txt'
 
 Output File is Called '8_Puzzle_Output.txt'
 
+
+
 Algorithm For 8_Puzzle ==>>
-	
-	
+	Solve the puzzle with hamming distance
+
+1)  Read the puzzle from file
+2)  make sure that the puzzle is solvable if not print can't solve
+3)  make the state of puzzle visited
+4)  Get the neighbours of the zero and make sure that when change to this nieghbour is not visited
+5)  Get hamming distance
+6)  sort the solutions and Get the least Solution
+7)  if found the goal print the path of the solution in file else print can't find solution
